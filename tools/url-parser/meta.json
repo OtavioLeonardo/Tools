@@ -1,0 +1,7 @@
+{
+  "name": "URL 解析器",
+  "description": "解析 URL 协议/域名/路径/参数/哈希",
+  "tags": ["web", "parser"],
+  "ai": false,
+  "category": "web"
+}

@@ -1,0 +1,7 @@
+{
+  "name": "图片转 Base64",
+  "description": "图片转 Base64 编码，用于内嵌 HTML",
+  "tags": ["image", "base64"],
+  "ai": false,
+  "category": "image"
+}

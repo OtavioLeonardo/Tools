@@ -1,0 +1,7 @@
+{
+  "name": "图片取色器",
+  "description": "从图片提取主色调和调色板",
+  "tags": ["image", "color"],
+  "ai": false,
+  "category": "image"
+}

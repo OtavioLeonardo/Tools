@@ -1,0 +1,7 @@
+{
+  "name": "BASE64 ENCODER",
+  "description": "Encode and decode Base64 text",
+  "tags": ["data", "encode"],
+  "ai": false,
+  "category": "encode"
+}

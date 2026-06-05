@@ -1,0 +1,7 @@
+{
+  "name": "二维码生成器",
+  "description": "将网址/文本转为二维码，可调整大小下载",
+  "tags": ["image", "encoding"],
+  "ai": false,
+  "category": "encode"
+}

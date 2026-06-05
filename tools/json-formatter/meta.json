@@ -1,0 +1,7 @@
+{
+  "name": "JSON FORMATTER",
+  "description": "Format, validate and minify JSON",
+  "tags": ["data", "format"],
+  "ai": false,
+  "category": "data"
+}

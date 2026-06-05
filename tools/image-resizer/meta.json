@@ -1,0 +1,7 @@
+{
+  "name": "图片缩放",
+  "description": "按像素尺寸或文件大小调整图片",
+  "tags": ["image", "resize"],
+  "ai": false,
+  "category": "image"
+}

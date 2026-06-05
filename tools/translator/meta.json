@@ -1,0 +1,7 @@
+{
+  "name": "AI TRANSLATOR",
+  "description": "Translate text using AI API",
+  "tags": ["ai", "translate"],
+  "ai": true,
+  "category": "ai"
+}

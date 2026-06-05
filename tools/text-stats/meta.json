@@ -1,0 +1,7 @@
+{
+  "name": "字符统计",
+  "description": "统计字数/词数/阅读时间，支持 Markdown",
+  "tags": ["text", "analysis"],
+  "ai": false,
+  "category": "text"
+}

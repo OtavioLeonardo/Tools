@@ -1,0 +1,7 @@
+{
+  "name": "摘要总结",
+  "description": "输入长文或URL，输出要点摘要",
+  "tags": ["ai", "summary", "text"],
+  "ai": true,
+  "category": "ai"
+}

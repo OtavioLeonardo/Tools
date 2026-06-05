@@ -1,0 +1,7 @@
+{
+  "name": "颜色转换器",
+  "description": "颜色值互转，取色器，多格式显示",
+  "tags": ["color", "design"],
+  "ai": false,
+  "category": "color"
+}

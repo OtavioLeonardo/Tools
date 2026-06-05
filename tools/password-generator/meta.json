@@ -1,0 +1,7 @@
+{
+  "name": "随机码生成器",
+  "description": "生成随机密码/密钥，控制长度和字符类型",
+  "tags": ["security", "generate"],
+  "ai": false,
+  "category": "security"
+}
