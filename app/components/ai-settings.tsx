@@ -1,12 +1,27 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { useAIConfig, PROVIDERS, type AIConfig } from "./ai-provider";
+
+function getProviderKey(config: AIConfig) {
+  const matched = Object.entries(PROVIDERS).find(([key, provider]) => {
+    if (key === "custom") return false;
+    return provider.apiUrl === config.apiUrl && provider.model === config.model;
+  });
+
+  return matched?.[0] ?? "custom";
+}
 
 export function AISettingsModal() {
   const { config, setConfig, showSettings, closeSettings } = useAIConfig();
   const [draft, setDraft] = useState<AIConfig>(config);
-  const [provider, setProvider] = useState<string>("deepseek");
+  const [provider, setProvider] = useState<string>(getProviderKey(config));
+
+  useEffect(() => {
+    if (!showSettings) return;
+    setDraft(config);
+    setProvider(getProviderKey(config));
+  }, [config, showSettings]);
 
   if (!showSettings) return null;
 
